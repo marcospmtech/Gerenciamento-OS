@@ -3,23 +3,105 @@
 <head>
     <meta charset="pt-br">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="data/style/style.css">
+    <link rel="stylesheet" href="data/style/index.css">
+
     <link rel="shortcut icon" href="data/logo/flaticon.ico" type="image/x-icon">
+    
     <title>Gerenciamento OS</title>
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <!--FONTS-->
 </head>
 <body>
     <header>
         <div class="header-title">
-            <a href="index.html"><img src="data/logo/flaticon.ico" alt="Gerenciamento OS"></a>
+            <a href="index.html"><img src="data/img/logo/flaticon.ico" alt="Gerenciamento OS"></a>
             <h1>Gerenciamento OS</h1>
         </div>
 
         <div class="header-extra">
-            <a href="caduse.html"><img src="data/icon/user.png" alt="Login/Register"></a>
+            <a href="caduse.html"><img src="data/img/icon/user.png" alt="Login/Register"></a>
         </div>
     </header>
 
     <main>
+        <section id="info">
+            <div class="title-grid">
+                <h1>GERENCIAMENTO OS</h1>
+                <h2>Gerencie todas as suas ordens de serviços em um só lugar!</h2>
+                <p>Um sistema de gerenciamento de Ordens de Serviço (OS) organiza e controla<br>
+                    todas as atividades de atendimento de uma empresa, permitindo cadastrar <br>
+                    clientes, registrar serviços solicitados, acompanhar o status de cada ordem<br>
+                    (aberta, em andamento ou finalizada) e gerar relatórios. Ele ajuda a<br>
+                    centralizar informações, agilizar processos, evitar esquecimentos e<br>
+                    melhorar o controle financeiro e operacional do negócio.</p>
+            </div>
+            
+            <img src="data/img/img/info.jpg" alt="Info Image">
+        </section>
+
+
+        <section id="functions">
+            <div class="functions-grid">
+                <div class="functions-card">
+                    <img src="data/img/icon/checklist.png" alt="Cadastro de Clientes">
+                    <h1>Cadastro de Clientes</h1>
+                    <p>Registre e gerencie todos os<br>
+                        seus clientes facilmente.</p>
+                </div>
+
+                <div class="functions-card">
+                    <img src="data/img/icon/tool.png" alt="Abertura de OS">
+                    <h1>Abertura de OS</h1>
+                    <p>Crie ordens de serviço rapidamente para cada atendimento.</p>
+                </div>
+
+                <div class="functions-card">
+                    <img src="data/img/icon/graphics.png" alt="Controle de Status">
+                    <h1>Controle de Status</h1>
+                    <p>Acompanhe se a OS está aberta,<br>em andamento ou finalizada.</p>
+                </div>
+
+                <div class="functions-card">
+                    <img src="data/img/icon/calendar.png" alt="Histórico de atendimentos">
+                    <h1>Histórico de Atendimentos</h1>
+                    <p>Visualize todo o histórico de serviços realizados.</p>
+                </div>
+
+                <div class="functions-card">
+                    <img src="data/img/icon/money-bag.png" alt="Controle financeiro">
+                    <h1>Controle Financeiro</h1>
+                    <p>Gerencie valores, orçamentos e pagamentos de forma prática.</p>
+                </div>
+
+                <div class="functions-card">
+                    <img src="data/img/icon/search.png" alt="Busca rápida de OS">
+                    <h1>Busca rápida de OS</h1>
+                    <p>Encontre qualquer ordem de serviço em segundos.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="call-to-action">
+            <div class="left-grid">
+                <h1>Comece a monitorar agora!</h1>
+                <p>Você esta a um botão de aumentar o desempenho da sua empresa.</p>
+                <img src="data/img/img/call-to-action.png" alt="Call to Action">
+            </div>
+
+            <div class="right-grid">
+                <button class="btn-register" onclick="window.location.href='cad/cadcli.html'">
+                    Cadastre-se
+                </button>
+
+                
+            </div>
 
     </main>
 </body>
