@@ -87,6 +87,18 @@ form {
     font-family: Inter, Segoe UI, sans-serif;
 }
 
+.input-group select {
+    width: 100%;
+    padding: 12px 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 16px;
+    font-family: Inter, Segoe UI, sans-serif;
+    background: #fff;
+    height: 44px;
+}
+
 .input-group label {
     position: absolute;
     left: 10px;
@@ -101,10 +113,13 @@ form {
 }
 
 .input-group input:focus + label,
-.input-group input:not(:placeholder-shown) + label {
+.input-group input:not(:placeholder-shown) + label,
+.input-group select:focus + label,
+.input-group select:valid + label {
     top: -9px;
     font-size: 12px;
 }
+
 
 /* From Uiverse.io by adeladel522 */ 
 .button {
@@ -176,3 +191,4 @@ form {
     left: 100%;
   }
 }
+/* From Uiverse.io by adeladel522 */ 

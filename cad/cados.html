@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../data/style/style.css">
     <link rel="stylesheet" href="../data/style/cad.css">
-    <link rel="shortcut icon" href="..data/logo/flaticon.ico" type="image/x-icon">
-    
+    <link rel="shortcut icon" href="../data/logo/flaticon.ico" type="image/x-icon">
+
     <title>Gerenciamento OS</title>
 
     <!--FONTS-->
@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     <!--FONTS-->
-
+    
 </head>
 <body>
     <header>
@@ -31,40 +31,35 @@
     <main>
         <div class="card-form-grid">
             <div class="card-form">
-                <p class="title-form">CADASTRO DE CLIENTE</p>
+                <p class="title-form">ORDEM DE SERVIÇO</p>
                 <form action="#" method="post">
                     <div class="input-group">
-                        <input type="text" id="nome" name="nome" placeholder="" required>
+                        <input type="text" id="nome_cliente" name="nome" required>
                         <label for="nome">Nome</label>
                     </div>
 
                     <div class="input-group">
-                        <input type="email" id="email" name="email" placeholder="" required>
+                        <input type="email" id="email" name="email" required>
                         <label for="email">E-mail</label>
                     </div>
 
                     <div class="input-group">
-                        <input type="text" id="telefone" name="telefone" placeholder="" required>
+                        <input type="text" id="telefone" name="telefone" required>
                         <label for="telefone">Telefone</label>
                     </div>
 
                     <div class="input-group">
-                        <input type="password" id="senha" name="senha" placeholder="" required>
-                        <label for="senha">Senha</label>
+                        <input type="text" id="problema" name="problema" required>
+                        <label for="problema">Problema</label>
                     </div>
 
                     <div class="input-group">
-                        <select id="role" name="role" required>
-                            <option value="" disabled selected></option>
-                            <option value="admin">Administrador</option>
-                            <option value="manager">Manager</option>
-                            <option value="staff">Staff</option>
-                        </select>
-                        <label for="role">Nível de Permissão</label>
+                        <input type="text" id="equipamento" name="equipamento" required>
+                        <label for="equipamento">Equipamento</label>
                     </div>
 
                     <button class="button" type="submit">
-                        Cadastre-se
+                        Enviar OS
                         <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
                             <path
                             clip-rule="evenodd"
